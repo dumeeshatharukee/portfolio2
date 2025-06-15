@@ -1,0 +1,50 @@
+/* Header Section */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, rgba(44, 145, 247, 0.8), rgba(0, 41, 74, 0.8));
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.header.scrolled {
+  background: linear-gradient(135deg, #21c1f7, #023a6a);
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  padding: 1rem 2rem;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav a {
+  color: #eaeeef;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #e6edf0, #00b0ff);
+  transition: width 0.3s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
