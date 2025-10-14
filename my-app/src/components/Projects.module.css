@@ -1,0 +1,62 @@
+.projects {
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projectRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.projectItem {
+  width: 30%;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.projectItem:hover {
+  transform: translateY(-5px);
+}
+
+.projectImage {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.projectDescription {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+
+.viewButton {
+  background-color: rgba(0, 123, 255, 0.8);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
+}
+
+.viewButton:hover {
+  background-color: rgba(0, 123, 255, 1);
+  transform: translateY(-3px); 
+  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.6);
+}
