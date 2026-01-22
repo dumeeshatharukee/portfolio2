@@ -8,8 +8,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 function Hero() {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/Dumeesha Tharukee-ITUM.pdf';
-    link.download = 'Dumeesha Tharukee-ITUM.pdf';
+    link.href = '/Dumeesha Tharukee -Fullstack Developer.pdf';
+    link.download = 'Dumeesha Tharukee -Fullstack Developer.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

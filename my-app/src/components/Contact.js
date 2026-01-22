@@ -81,7 +81,7 @@ function Contact() {
       <div className={styles.contactInfo}>
         <p>Phone: 0702227507</p>
         <p>Email: ng.dumeeshatharukee@gmail.com</p>
-        <p>Location: Diyagama, Homagama</p>
+        <p>Location: Colombo , Sri Lanka</p>
       </div>
     </section>
   );

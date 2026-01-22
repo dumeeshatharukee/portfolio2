@@ -1,16 +1,33 @@
 import React from 'react';
 import styles from './Projects.module.css';
-import WebImage from '../Images/Bank.jpg'; 
+import WebImage from '../Images/smartmed.png.jpeg'; 
 import WebImage1 from '../Images/Web.png'; 
 import WebImage2 from '../Images/quiz.jpg';
 import WebImage3 from '../Images/Conference.jpg';
-import AppImage1 from '../Images/travel.jpg';
-import AppImage2 from '../Images/salon.jpg';
+import AppImage1 from '../Images/weather.png';
+import AppImage2 from '../Images/fruits.jpg';
 import UIUXImage1 from '../Images/Food.jpg';
 import UIUXImage2 from '../Images/Cloth.jpg';
 
 const projects = [
  
+
+  {
+  type: 'Web Development',
+  description: 'SMARTMED Final Project (Group)',
+  shortDescription: 'Developed a web-based healthcare system to digitalize student records, enable QR-based identification, telemedicine, and pharmacy integration — improving data access, efficiency, and reducing paper use.',
+  image: WebImage,
+  repoLink: 'https://github.com/Dhanuka2002/SmartMed-Frontend.git',
+}
+,
+{
+  type: 'App Development',
+  description: ' Real-Time Weather Dashboard Project',
+  shortDescription: 'Developed an end-to-end full-stack real-time weather dashboard with automatic data updates every 1minute. Implemented a RESTful backend API using Node.js .Deployed the backend on Railway andAS EC2 (Ubuntu t3.micro) with PM2 for process management and configured AWS security groups.',
+  image: AppImage1,
+  repoLink: 'https://github.com/dumeeshatharukee/weather-dashboard.git',
+},
+
   {
   type: 'Web Development',
   description: 'Conference Management System',
@@ -19,14 +36,7 @@ const projects = [
   repoLink: 'https://github.com/dumeeshatharukee/Conference-Management-System.git',
 }
 ,
-  {
-  type: 'Web Development',
-  description: 'Bank Management System',
-  shortDescription: 'A Java-based console application to manage bank accounts, transactions, and user operations.I used Java for build in this system.',
-  image: WebImage,
-  repoLink: 'https://github.com/dumeeshatharukee/Bank-Management-System.git',
-}
-,
+  
   {
   type: 'Web Development',
   description: 'Portfolio website built with React',
@@ -42,19 +52,13 @@ const projects = [
   repoLink: 'https://github.com/dumeeshatharukee/Quiz-App.git',
 },
 
-  {
-  type: 'App Development',
-  description: 'Travel Website',
-  shortDescription: 'A user-friendly travel site that highlights top destinations and trip planning in Sri Lanka. Built using HTML, CSS, and JavaScript, this project highlights my skills in front-end development and user interface design',
-  image: AppImage1,
-  repoLink: 'https://www.linkedin.com/posts/dumeesha-tharukee-186599306_webdevelopment-frontenddevelopment-html-activity-7301515881736527872-Ur2R?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE4KcrYBK86w62fYbLGNLvdh8ntoAIfeNm8',
-},
+  
 {
   type: 'App Development',
-  description: 'Beauty Salon website',
-  shortDescription: 'A responsive and elegant website for a beauty salon, featuring service listings, appointment booking, and modern design.Built using HTML, CSS, and JavaScript, this project highlights my skills in front-end development and user interface design',
+  description: 'Fruits Selling E-commerce Website',
+  shortDescription: 'Designed a responsive e-commerce site with a modern navbar, hero section, engaging animations, fullresponsiveness, and best practices implementation',
   image: AppImage2,
-  repoLink: 'https://www.linkedin.com/posts/dumeesha-tharukee-186599306_webdevelopment-html-css-activity-7296837047015661568-c-sj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE4KcrYBK86w62fYbLGNLvdh8ntoAIfeNm8',
+  repoLink: 'https://github.com/dumeeshatharukee/Fruits-E-commerce-Website-with-Frame-Motion.git',
 },
   
   {

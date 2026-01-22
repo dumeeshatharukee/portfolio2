@@ -11,7 +11,7 @@ function About() {
           <img src={DumeeImage} alt="Dumeesha Tharukee" />
         </div>
         <div className={styles.text}>
-          <h3 className={styles.subtitle}>Full stack Developer & UI/UX Designer</h3>
+          <h3 className={styles.subtitle}>Fullstack Developer & UI/UX Designer</h3>
           <p className={styles.description}>
            I'm Dumeetha Tharukee, an enthusiastic and dedicated undergraduate student at the Institute of Technology, University of Moratuwa,pursuing a diploma in IT with a focus on Full Stack Development.
            With hands-on experience in both front-end and back-end technologies. My foundation in software development practices allows me to approach challenges with a structured mindset and deliver efficient, real-world solutions. 
@@ -29,7 +29,9 @@ function About() {
 
                     <li>Back-End Development:
 
-                        Node.js
+                        Node.js,Springboot,Express.js
+
+                        RESTful APIs,
 
                         PHP</li>
 
